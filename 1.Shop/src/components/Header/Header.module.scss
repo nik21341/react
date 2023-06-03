@@ -1,0 +1,14 @@
+.Header {
+  &__inner {
+    display: flex;
+    height: 100px;
+  }
+
+  &__logo {
+    width: 100px;
+  }
+
+  &__basket {
+    width: 100px;
+  }
+}

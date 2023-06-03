@@ -1,0 +1,35 @@
+.filter {
+  &__input {
+    width: 100%;
+    padding: 5px 10px;
+  }
+
+  &__select {
+    color: black;
+  }
+
+  &__categories {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+
+  &__inner_input {
+    position: relative;
+  }
+
+  &__input_close {
+    position: absolute;
+    right: 0;
+    top: 6px;
+  }
+
+  &__item {
+    margin-right: 5px;
+
+    &_active {
+      color: red;
+    }
+  }
+}
